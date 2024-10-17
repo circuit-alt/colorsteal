@@ -76,12 +76,11 @@ MPP.client.on('a', function(m) {
         }]);
     }
     }
-    if (MPP.client.participantId == 'ebb6dfa96f1714ce66f648ad') {
+    /* if (MPP.client.participantId == 'ebb6dfa96f1714ce66f648ad') {
         if (m.p.id == '753b232bbf78d992f2985169') {
             if (cmd == "say") {
                 MPP.chat.send(m.a.substring(4).trim())
             }
         }
-    }
-
+    } */
 });
